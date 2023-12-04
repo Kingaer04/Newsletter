@@ -1,0 +1,177 @@
+* {
+    border: none;
+    outline: 0;
+}
+
+body {
+    background-color: rgba(46, 39, 65, 0.863);
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 90%;
+}
+
+h1 {
+    margin-top: 25%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.row {
+    width: 50%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.left {
+    height: 100%;
+    /* width: 100%; */
+}
+
+
+.illu {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:1145px) and (min-width: 768px) {
+    .left {
+        padding-bottom: 10%;
+    }
+} 
+
+.right {
+    border: none;
+    height: 100%;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.product-text {
+    margin-bottom: 20px;
+}
+
+.input {
+    border: 1px solid black;
+    padding: 3%;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.button {
+    background: linear-gradient(to left,rgb(235, 98, 8),rgb(230, 56, 85));
+    padding: 5%;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 12px;
+    width: 90%;
+}
+
+.input:focus {
+    border-color: rgb(255, 153, 0);
+}
+
+.email {
+    font-weight: 500;
+}
+
+.thanks {
+    border: 1px solid red;
+    background-color: #fff;
+    width: 20%;
+    border-radius: 20px;
+    position: absolute;
+    height: 45%;
+    padding: 3%;
+}
+
+.tik {
+    height: 5%;
+    width: 15%;
+}
+
+.for {
+    margin-top: 20px;
+    font-size: 200%;
+}
+
+.confirm {
+    font-size: 70%;
+    margin-bottom: 40px;
+}
+
+.dismiss {
+    color: white;
+    background: linear-gradient(to left,rgb(235, 98, 8),rgb(230, 56, 85));
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 98%;
+    padding: 4%;
+    box-shadow: 1,10,2,rgba(230, 56, 85, 0.863);
+}
+
+.error {
+    color: red;
+    font-size: 70%;
+    margin-left: 17%;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .right {
+        position: relative;
+        top: -500px;
+    }
+    .row {
+        height: 100%;
+        padding: 0%;
+        margin: 0;
+        border-radius: 0;
+        width: 60%;
+    }
+    .left {
+        position: relative;
+        top: 450px;
+    }
+
+    .illu {
+        width: 109%;
+        position: relative;
+        right: 16px;
+        z-index: 0;
+        padding: 0;
+        display: block;
+        top: -15px;
+    }
+    h1 {
+        margin-bottom: 20px;
+    }
+    .text {
+        margin-bottom: 20px;
+    }
+    .input {
+        margin-top: 20px;
+    }
+    .button {
+        margin-top: 10px;
+    }
+}

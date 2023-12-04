@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-6 left">
+            <h1>Stay Updated!</h1>
+            <h6>Join 60,000+ product managers receiving monthly updates on:</h6>
+            <div class="product-text">
+                <div class="text">
+                    <img class="icon" src="images/icon-list.svg" >
+                    <h6>Product discovery and building what matters</h6>
+                </div>
+                <div class="text">
+                    <img class="icon" src="images/icon-list.svg" >
+                    <h6>Measuring to ensure updates are a success</h6>
+                </div>
+                <div class="text">
+                    <img class="icon" src="images/icon-list.svg" >
+                    <h6>And much more!</h6>
+                </div>
+            </div>
+            <form action="second-page.html">
+                <label class="email" for="email">Email address</label>
+                <span class="error"></span>
+                <input class="input" type="email" required placeholder="ash@loremcompany.com" onkeyup="visi()"><br>
+                <button class="button" type="submit">
+                    Subscribe to monthly newsletter
+                </button>
+            </form>
+        </div>
+        <div class="col-md-6 right">
+            <img class="illu" src="images/illustration-sign-up-desktop.svg" alt="">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
